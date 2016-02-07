@@ -18,7 +18,7 @@ theme = "hugo-agency-theme"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "La fondation Big Data"
-	description = "Your description"
+	description = "Pour démocratiser l'utilisation des grandes quantités de données"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -38,7 +38,7 @@ theme = "hugo-agency-theme"
 	[params.navigation]
 		brand = "La fondation Big Data"
 		services = "Services"
-		portfolio = "Cours créés"
+		# portfolio = "Cours créés"
 		about = "À propos"
 		team = "L'équipe"
 		contact = "Contacte"
@@ -63,7 +63,14 @@ theme = "hugo-agency-theme"
             [[params.services.row.list]]
                 icon = "book"
                 title = "Introduction au Big Data"
-                description = "Le cours d'introduction au Big Data permet d'abord de comprendre l'étendu des possibilités de mise en applications et les défis associée au Big DAta. Par la suite, il y aura une dénivellation des théories et d'exercices pratiques survolant 4 sujets : l'infratructure du Big Data, les technologies de la familles Hadoop, l'analyse Olap avec Impala, et le machine learning."
+                description = "Le cours d'introduction au Big Data permet d'abord de comprendre l'étendu des possibilités de mise en applications et les défis associée au Big DAta. Par la suite, il y aura une dénivellation des théories et d'exercices pratiques survolant 4 sujets : l'infratructure du Big Data, les technologies de la familles Hadoop, l'analyse OLAP, et le machine learning."
+
+
+            # [[params.services.row.list]]
+            #     icon = "book"
+            #     title = "Consultation"
+            #     description = "Le cours d'introduction au Big Data permet d'abord de comprendre l'étendu des possibilités de mise en applications et les défis associée au Big DAta. Par la suite, il y aura une dénivellation des théories et d'exercices pratiques survolant 4 sujets : l'infratructure du Big Data, les technologies de la familles Hadoop, l'analyse OLAP, et le machine learning."
+
 
             # [[params.services.row.list]]
             #     icon = "fa-laptop"
