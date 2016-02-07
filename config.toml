@@ -1,0 +1,231 @@
+baseurl = "https://bigdatafoundation.github.io/"
+languageCode = "en-us"
+title = "La fondation Big Data"
+theme = "hugo-agency-theme"
+
+
+
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "La fondation Big Data"
+	description = "Your description"
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "thebigdatafoundation@gmail.com"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "La fondation Big Data"
+		services = "Services"
+		portfolio = "Cours créés"
+		about = "À propos"
+		team = "L'équipe"
+		contact = "Contacte"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "Pour démocratiser l'utilisation des grandes quantités de données."
+		subtitle = "La fondation Big data"
+		buttonText = "Ça m'intéresse"
+
+
+	# Services section
+	[params.services]
+		title = "Services"
+		subtitle = "L'objectif de la Fondation Big Data est de démocratiser le savoir-faire et les cas d'utilisation spécifiques avec le Big Data."
+
+        [[params.services.row]]
+
+            [[params.services.row.list]]
+                icon = "book"
+                title = "Introduction au Big Data"
+                description = "Le cours d'introduction au Big Data permet d'abord de comprendre l'étendu des possibilités de mise en applications et les défis associée au Big DAta. Par la suite, il y aura une dénivellation des théories et d'exercices pratiques survolant 4 sujets : l'infratructure du Big Data, les technologies de la familles Hadoop, l'analyse Olap avec Impala, et le machine learning."
+
+            # [[params.services.row.list]]
+            #     icon = "fa-laptop"
+            #     title = "Responsive Design"
+            #     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+            # [[params.services.row.list]]
+            #     icon = "fa-lock"
+            #     title = "Web"
+            #     description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+
+	# # Portfolio section
+	# [params.portfolio]
+	# 	# All projects defined in their own files. You can find example projects
+	# 	# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+	# 	# at the root of this Hugo site.
+	# 	# For more informtion take a look at the README.
+	# 	title = "Portfolio"
+	# 	subtitle = "Lorem ipsum dolor sit amet consectetur."
+
+	# 	[params.portfolio.modal]
+        #     client = "Client"
+        #     date = "Date"
+        #     category = "Category"
+        #     buttonText = "Close project"
+
+
+    # About section
+	[params.about]
+		title = "À propos"
+		subtitle = "L'historique de la fondation'"
+		endpoint = "Faites parti  <br> de notre <br> histoire!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		[[params.about.events]]
+			img = "1.jpg"
+			date = "Automne 2015"
+			title = "Notre humble début"
+			description = "Le premier cours de Big Data se fait donner !"
+
+		[[params.about.events]]
+			img = "2.jpg"
+			date = "2016"
+			title = "Une nouvelle fondation est créée"
+			description = "La fondation Big Data est enregistrée et prête à donner ses services."
+
+	# Team section
+	[params.team]
+		title = "Notre équipe incroyable"
+		subtitle = "Les pilliers de la fondation."
+		description = "C'est grâce à eux que la fondation existe et que l'on a espoir d'y voir du progret."
+
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
+		[[params.team.members]]
+			img = "dl.jpg"
+			name = "David Lauzon"
+			position = "Spécialiste du Big Data"
+			social = [
+				# ["fa-twitter", "#"],
+				# ["fa-facebook", "#"],
+				["fa-linkedin", "https://www.linkedin.com/in/davidlauzon"]
+			]
+
+		[[params.team.members]]
+			img = "om2.jpg"
+			name = "Olivier Mirandette"
+			position = "Spécialiste du Big Data"
+			social = [
+				# ["fa-twitter", "#"],
+				# ["fa-facebook", "#"],
+				["fa-linkedin", "https://www.linkedin.com/in/mirandette?"]
+			]
+
+
+		[[params.team.members]]
+			img = "mf.jpg"
+			name = "Michael Faille"
+			position = "Spécialiste en infrastructure info-nuagique et enthousiaste du DevOps"
+			social = [
+				# ["fa-twitter", "#"],
+				# ["fa-facebook", "#"],
+				["fa-linkedin", "https://www.linkedin.com/in/michaelfaille"]
+			]
+
+
+		[[params.team.members]]
+			img = "ap.jpg"
+			name = "Prof. Alain April, phd"
+			position = "Spécialiste du Big Data"
+			social = [
+				# ["fa-twitter", "#"],
+				# ["fa-facebook", "#"],
+				["fa-linkedin", "https://www.linkedin.com/in/alainapril"]
+			]
+
+	# # Client section
+	# # All the clients' logos are stored under 'static/img/logos'.
+	# # Replace them with your clients's logos.
+	# [[params.clients]]
+	# 	logo = "envato.jpg"
+	# 	link = "#"
+
+	# [[params.clients]]
+	# 	logo = "designmodo.jpg"
+	# 	link = "#"
+
+	# [[params.clients]]
+	# 	logo = "themeforest.jpg"
+	# 	link = "#"
+
+	# [[params.clients]]
+	# 	logo = "creative-market.jpg"
+	# 	link = "#"
+
+
+	# Contact section
+	[params.contact]
+		title = "Contactez-nous !"
+		subtitle  = "Des commentaires construtifs pour nous et pour vous !"
+		buttonText = "Envoyez le message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Votre nom *"
+			warning = "S'il vous plaît, veillez entrer votre nom."
+
+		[params.contact.form.email]
+			text = "Ton adresse courriel *"
+			warning = "S'il vous plaît, veuillez entrer votre adresse courriel."
+
+		[params.contact.form.phone]
+			text = "Votre numéro de téléphone *"
+			warning = "S'il vous plaît, veuillez entrer votre numéro de téléphone"
+
+		[params.contact.form.message]
+			text = "Votre message *"
+			warning = "S'il vous plaît, veuillez entrer un message."
+
+
+	# Footer section
+	[params.footer]
+		copyright = "Published under the CC BY-ND 4.0"
+
+		# [[params.footer.social]]
+		# 	icon = "fa-twitter"
+		# 	link = "#"
+
+		# [[params.footer.social]]
+		# 	icon = "fa-facebook"
+		# 	link = "#"
+
+		# [[params.footer.social]]
+		# 	icon = "fa-linkedin"
+		# 	link = "#"
+
+		# [[params.footer.quicklinks]]
+		# 	text = "Privacy Policy"
+		# 	link = "#"
+
+		# [[params.footer.quicklinks]]
+		# 	text = "Terms of Use"
+		# 	link = "#"
